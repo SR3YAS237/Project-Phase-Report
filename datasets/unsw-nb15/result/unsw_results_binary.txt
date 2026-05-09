@@ -1,0 +1,72 @@
+===== DNN =====
+
+Accuracy : 0.9518191520325993
+Precision: 0.9678999414682234
+Recall   : 0.9561472915398661
+F1 Score : 0.9619877221720426
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.92      0.94      0.93     18675
+           1       0.97      0.96      0.96     32860
+
+    accuracy                           0.95     51535
+   macro avg       0.95      0.95      0.95     51535
+weighted avg       0.95      0.95      0.95     51535
+
+Confusion Matrix:
+[[17633  1042]
+ [ 1441 31419]]
+
+
+
+
+
+
+===== SVM =====
+
+Accuracy : 0.9011545551566896
+Precision: 0.8846771958991411
+Recall   : 0.9716372489348752
+F1 Score : 0.9261203770848441
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.78      0.85     18675
+           1       0.88      0.97      0.93     32860
+
+    accuracy                           0.90     51535
+   macro avg       0.91      0.87      0.89     51535
+weighted avg       0.90      0.90      0.90     51535
+
+Confusion Matrix:
+[[14513  4162]
+ [  932 31928]]
+
+
+
+
+
+
+===== RANDOM FOREST =====
+
+Accuracy : 0.9845347821868633
+Precision: 0.9872648247773624
+Recall   : 0.9884966524650031
+F1 Score : 0.9878803546174785
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98     18675
+           1       0.99      0.99      0.99     32860
+
+    accuracy                           0.98     51535
+   macro avg       0.98      0.98      0.98     51535
+weighted avg       0.98      0.98      0.98     51535
+
+Confusion Matrix:
+[[18256   419]
+ [  378 32482]]
