@@ -1,0 +1,29 @@
+===== SVM =====
+
+Accuracy : 0.99604
+
+Classification Report:
+                   precision    recall  f1-score   support
+
+        Backdoors       0.00      0.00      0.00        75
+Denial of Service       0.00      0.00      0.00       128
+         Exploits       0.72      1.00      0.84      1010
+          Generic       0.00      0.00      0.00        99
+   Reconnaissance       0.00      0.00      0.00        12
+        Shellcode       0.00      0.00      0.00        67
+            Worms       0.00      0.00      0.00        15
+           normal       1.00      1.00      1.00     98594
+
+         accuracy                           1.00    100000
+        macro avg       0.21      0.25      0.23    100000
+     weighted avg       0.99      1.00      0.99    100000
+
+Confusion Matrix:
+[[    0     0    75     0     0     0     0     0]
+ [    0     0   128     0     0     0     0     0]
+ [    0     0  1010     0     0     0     0     0]
+ [    0     0    99     0     0     0     0     0]
+ [    0     0    12     0     0     0     0     0]
+ [    0     0    67     0     0     0     0     0]
+ [    0     0    15     0     0     0     0     0]
+ [    0     0     0     0     0     0     0 98594]]
