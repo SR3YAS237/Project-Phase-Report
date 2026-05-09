@@ -1,0 +1,52 @@
+========== KDD BINARY RESULTS ==========
+
+===== RANDOM FOREST =====
+
+Accuracy: 0.9999666666666667
+
+              precision    recall  f1-score   support
+
+      attack       1.00      1.00      1.00      7631
+      normal       1.00      1.00      1.00     52369
+
+    accuracy                           1.00     60000
+   macro avg       1.00      1.00      1.00     60000
+weighted avg       1.00      1.00      1.00     60000
+
+Confusion Matrix:
+[[ 7629     2]
+ [    0 52369]]
+
+===== SVM =====
+
+Accuracy: 0.9973833333333333
+
+              precision    recall  f1-score   support
+
+      attack       0.99      0.99      0.99      7631
+      normal       1.00      1.00      1.00     52369
+
+    accuracy                           1.00     60000
+   macro avg       0.99      0.99      0.99     60000
+weighted avg       1.00      1.00      1.00     60000
+
+Confusion Matrix:
+[[ 7551    80]
+ [   77 52292]]
+
+===== DNN =====
+
+Accuracy: 0.9995666666666667
+
+              precision    recall  f1-score   support
+
+      attack       1.00      1.00      1.00      7631
+      normal       1.00      1.00      1.00     52369
+
+    accuracy                           1.00     60000
+   macro avg       1.00      1.00      1.00     60000
+weighted avg       1.00      1.00      1.00     60000
+
+Confusion Matrix:
+[[ 7609    22]
+ [    4 52365]]
