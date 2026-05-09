@@ -1,0 +1,252 @@
+===== RANDOM FOREST =====
+
+Accuracy : 0.569620253164557
+
+Classification Report:
+                     precision    recall  f1-score   support
+
+          Adduser_1       0.00      0.00      0.00         2
+         Adduser_10       0.00      0.00      0.00         2
+          Adduser_2       0.00      0.00      0.00         2
+          Adduser_3       0.00      0.00      0.00         2
+          Adduser_4       0.00      0.00      0.00         1
+          Adduser_5       0.00      0.00      0.00         0
+          Adduser_6       0.00      0.00      0.00         2
+          Adduser_7       0.00      0.00      0.00         3
+          Adduser_8       0.00      0.00      0.00         0
+          Adduser_9       0.00      0.00      0.00         3
+        Hydra_FTP_1       0.00      0.00      0.00         2
+       Hydra_FTP_10       0.00      0.00      0.00         5
+        Hydra_FTP_2       0.00      0.00      0.00         2
+        Hydra_FTP_3       0.00      0.00      0.00         4
+        Hydra_FTP_4       0.00      0.00      0.00         3
+        Hydra_FTP_5       0.00      0.00      0.00         3
+        Hydra_FTP_6       0.11      0.20      0.14         5
+        Hydra_FTP_7       0.00      0.00      0.00         3
+        Hydra_FTP_8       0.00      0.00      0.00         3
+        Hydra_FTP_9       0.14      0.33      0.20         3
+        Hydra_SSH_1       0.00      0.00      0.00         3
+       Hydra_SSH_10       0.00      0.00      0.00         3
+        Hydra_SSH_2       0.25      0.17      0.20         6
+        Hydra_SSH_3       0.00      0.00      0.00         4
+        Hydra_SSH_4       0.00      0.00      0.00         3
+        Hydra_SSH_5       0.00      0.00      0.00         4
+        Hydra_SSH_6       0.00      0.00      0.00         4
+        Hydra_SSH_7       0.00      0.00      0.00         3
+        Hydra_SSH_8       0.00      0.00      0.00         3
+        Hydra_SSH_9       0.09      0.20      0.12         5
+ Java_Meterpreter_1       0.00      0.00      0.00         1
+Java_Meterpreter_10       0.00      0.00      0.00         3
+ Java_Meterpreter_2       0.00      0.00      0.00         2
+ Java_Meterpreter_3       0.00      0.00      0.00         2
+ Java_Meterpreter_4       0.00      0.00      0.00         4
+ Java_Meterpreter_5       0.00      0.00      0.00         1
+ Java_Meterpreter_6       0.00      0.00      0.00         2
+ Java_Meterpreter_7       0.00      0.00      0.00         3
+ Java_Meterpreter_8       0.00      0.00      0.00         1
+ Java_Meterpreter_9       0.00      0.00      0.00         3
+      Meterpreter_1       0.00      0.00      0.00         1
+     Meterpreter_10       0.00      0.00      0.00         1
+      Meterpreter_2       0.00      0.00      0.00         1
+      Meterpreter_3       0.00      0.00      0.00         0
+      Meterpreter_4       0.00      0.00      0.00         2
+      Meterpreter_5       0.00      0.00      0.00         1
+      Meterpreter_6       0.00      0.00      0.00         3
+      Meterpreter_7       0.00      0.00      0.00         0
+      Meterpreter_8       0.00      0.00      0.00         3
+      Meterpreter_9       0.00      0.00      0.00         0
+             Normal       0.90      0.99      0.94       178
+        Web_Shell_1       0.00      0.00      0.00         1
+       Web_Shell_10       0.00      0.00      0.00         0
+        Web_Shell_2       0.00      0.00      0.00         3
+        Web_Shell_3       0.00      0.00      0.00         1
+        Web_Shell_4       0.00      0.00      0.00         1
+        Web_Shell_5       0.00      0.00      0.00         4
+        Web_Shell_6       0.00      0.00      0.00         1
+        Web_Shell_7       0.00      0.00      0.00         2
+        Web_Shell_8       0.00      0.00      0.00         0
+        Web_Shell_9       0.00      0.00      0.00         3
+
+           accuracy                           0.57       316
+          macro avg       0.02      0.03      0.03       316
+       weighted avg       0.52      0.57      0.54       316
+
+Confusion Matrix:
+[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 1 0 0]]
+
+
+
+
+
+===== SVM =====
+
+Accuracy : 0.5506329113924051
+
+Classification Report:
+                     precision    recall  f1-score   support
+
+          Adduser_1       0.00      0.00      0.00         2
+         Adduser_10       0.00      0.00      0.00         2
+          Adduser_2       0.00      0.00      0.00         2
+          Adduser_3       0.00      0.00      0.00         2
+          Adduser_4       0.00      0.00      0.00         1
+          Adduser_5       0.00      0.00      0.00         0
+          Adduser_6       0.00      0.00      0.00         2
+          Adduser_7       0.00      0.00      0.00         3
+          Adduser_8       0.00      0.00      0.00         0
+          Adduser_9       0.00      0.00      0.00         3
+        Hydra_FTP_1       0.00      0.00      0.00         2
+       Hydra_FTP_10       0.00      0.00      0.00         5
+        Hydra_FTP_2       0.00      0.00      0.00         2
+        Hydra_FTP_3       0.00      0.00      0.00         4
+        Hydra_FTP_4       0.00      0.00      0.00         3
+        Hydra_FTP_5       0.00      0.00      0.00         3
+        Hydra_FTP_6       0.00      0.00      0.00         5
+        Hydra_FTP_7       0.00      0.00      0.00         3
+        Hydra_FTP_8       0.00      0.00      0.00         3
+        Hydra_FTP_9       0.00      0.00      0.00         3
+        Hydra_SSH_1       0.00      0.00      0.00         3
+       Hydra_SSH_10       0.00      0.00      0.00         3
+        Hydra_SSH_2       0.00      0.00      0.00         6
+        Hydra_SSH_3       0.12      0.25      0.17         4
+        Hydra_SSH_4       0.00      0.00      0.00         3
+        Hydra_SSH_5       0.00      0.00      0.00         4
+        Hydra_SSH_6       0.00      0.00      0.00         4
+        Hydra_SSH_7       0.00      0.00      0.00         3
+        Hydra_SSH_8       0.00      0.00      0.00         3
+        Hydra_SSH_9       0.12      0.20      0.15         5
+ Java_Meterpreter_1       0.00      0.00      0.00         1
+Java_Meterpreter_10       0.00      0.00      0.00         3
+ Java_Meterpreter_2       0.00      0.00      0.00         2
+ Java_Meterpreter_3       0.00      0.00      0.00         2
+ Java_Meterpreter_4       0.00      0.00      0.00         4
+ Java_Meterpreter_5       0.00      0.00      0.00         1
+ Java_Meterpreter_6       0.00      0.00      0.00         2
+ Java_Meterpreter_7       0.00      0.00      0.00         3
+ Java_Meterpreter_8       0.00      0.00      0.00         1
+ Java_Meterpreter_9       0.00      0.00      0.00         3
+      Meterpreter_1       0.00      0.00      0.00         1
+     Meterpreter_10       0.00      0.00      0.00         1
+      Meterpreter_2       0.00      0.00      0.00         1
+      Meterpreter_3       0.00      0.00      0.00         0
+      Meterpreter_4       0.00      0.00      0.00         2
+      Meterpreter_5       0.00      0.00      0.00         1
+      Meterpreter_6       0.00      0.00      0.00         3
+      Meterpreter_7       0.00      0.00      0.00         0
+      Meterpreter_8       0.00      0.00      0.00         3
+      Meterpreter_9       0.00      0.00      0.00         0
+             Normal       0.73      0.97      0.83       178
+        Web_Shell_1       0.00      0.00      0.00         1
+       Web_Shell_10       0.00      0.00      0.00         0
+        Web_Shell_2       0.00      0.00      0.00         3
+        Web_Shell_3       0.00      0.00      0.00         1
+        Web_Shell_4       0.00      0.00      0.00         1
+        Web_Shell_5       0.00      0.00      0.00         4
+        Web_Shell_6       0.00      0.00      0.00         1
+        Web_Shell_7       0.00      0.00      0.00         2
+        Web_Shell_8       0.00      0.00      0.00         0
+        Web_Shell_9       0.00      0.00      0.00         3
+
+           accuracy                           0.55       316
+          macro avg       0.02      0.02      0.02       316
+       weighted avg       0.42      0.55      0.47       316
+
+Confusion Matrix:
+[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 1 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 0]]
+
+
+
+
+===== DNN =====
+
+Accuracy : 0.5632911392405063
+
+Classification Report:
+                     precision    recall  f1-score   support
+
+          Adduser_1       0.00      0.00      0.00         2
+         Adduser_10       0.00      0.00      0.00         2
+          Adduser_2       0.00      0.00      0.00         2
+          Adduser_3       0.00      0.00      0.00         2
+          Adduser_4       0.00      0.00      0.00         1
+          Adduser_5       0.00      0.00      0.00         0
+          Adduser_6       0.00      0.00      0.00         2
+          Adduser_7       0.00      0.00      0.00         3
+          Adduser_8       0.00      0.00      0.00         0
+          Adduser_9       0.00      0.00      0.00         3
+        Hydra_FTP_1       0.00      0.00      0.00         2
+       Hydra_FTP_10       0.00      0.00      0.00         5
+        Hydra_FTP_2       0.00      0.00      0.00         2
+        Hydra_FTP_3       0.00      0.00      0.00         4
+        Hydra_FTP_4       0.00      0.00      0.00         3
+        Hydra_FTP_5       0.00      0.00      0.00         3
+        Hydra_FTP_6       0.00      0.00      0.00         5
+        Hydra_FTP_7       0.00      0.00      0.00         3
+        Hydra_FTP_8       0.00      0.00      0.00         3
+        Hydra_FTP_9       0.00      0.00      0.00         3
+        Hydra_SSH_1       0.00      0.00      0.00         3
+       Hydra_SSH_10       0.00      0.00      0.00         3
+        Hydra_SSH_2       0.00      0.00      0.00         6
+        Hydra_SSH_3       0.00      0.00      0.00         4
+        Hydra_SSH_4       0.00      0.00      0.00         3
+        Hydra_SSH_5       0.00      0.00      0.00         4
+        Hydra_SSH_6       0.00      0.00      0.00         4
+        Hydra_SSH_7       0.00      0.00      0.00         3
+        Hydra_SSH_8       0.00      0.00      0.00         3
+        Hydra_SSH_9       0.00      0.00      0.00         5
+ Java_Meterpreter_1       0.00      0.00      0.00         1
+Java_Meterpreter_10       0.00      0.00      0.00         3
+ Java_Meterpreter_2       0.00      0.00      0.00         2
+ Java_Meterpreter_3       0.00      0.00      0.00         2
+ Java_Meterpreter_4       0.00      0.00      0.00         4
+ Java_Meterpreter_5       0.00      0.00      0.00         1
+ Java_Meterpreter_6       0.00      0.00      0.00         2
+ Java_Meterpreter_7       0.00      0.00      0.00         3
+ Java_Meterpreter_8       0.00      0.00      0.00         1
+ Java_Meterpreter_9       0.00      0.00      0.00         3
+      Meterpreter_1       0.00      0.00      0.00         1
+     Meterpreter_10       0.00      0.00      0.00         1
+      Meterpreter_2       0.00      0.00      0.00         1
+      Meterpreter_3       0.00      0.00      0.00         0
+      Meterpreter_4       0.00      0.00      0.00         2
+      Meterpreter_5       0.00      0.00      0.00         1
+      Meterpreter_6       0.00      0.00      0.00         3
+      Meterpreter_7       0.00      0.00      0.00         0
+      Meterpreter_8       0.00      0.00      0.00         3
+      Meterpreter_9       0.00      0.00      0.00         0
+             Normal       0.56      1.00      0.72       178
+        Web_Shell_1       0.00      0.00      0.00         1
+       Web_Shell_10       0.00      0.00      0.00         0
+        Web_Shell_2       0.00      0.00      0.00         3
+        Web_Shell_3       0.00      0.00      0.00         1
+        Web_Shell_4       0.00      0.00      0.00         1
+        Web_Shell_5       0.00      0.00      0.00         4
+        Web_Shell_6       0.00      0.00      0.00         1
+        Web_Shell_7       0.00      0.00      0.00         2
+        Web_Shell_8       0.00      0.00      0.00         0
+        Web_Shell_9       0.00      0.00      0.00         3
+
+           accuracy                           0.56       316
+          macro avg       0.01      0.02      0.01       316
+       weighted avg       0.32      0.56      0.41       316
+
+Confusion Matrix:
+[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]

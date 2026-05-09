@@ -1,0 +1,65 @@
+===== RANDOM FOREST =====
+
+Accuracy : 0.9651898734177216
+Precision: 0.950354609929078
+Recall   : 0.9710144927536232
+F1 Score : 0.9605734767025089
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.96      0.97       178
+           1       0.95      0.97      0.96       138
+
+    accuracy                           0.97       316
+   macro avg       0.96      0.97      0.96       316
+weighted avg       0.97      0.97      0.97       316
+
+Confusion Matrix:
+[[171   7]
+ [  4 134]]
+
+
+===== SVM =====
+
+Accuracy : 0.9113924050632911
+Precision: 0.8618421052631579
+Recall   : 0.9492753623188406
+F1 Score : 0.903448275862069
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.88      0.92       178
+           1       0.86      0.95      0.90       138
+
+    accuracy                           0.91       316
+   macro avg       0.91      0.92      0.91       316
+weighted avg       0.92      0.91      0.91       316
+
+Confusion Matrix:
+[[157  21]
+ [  7 131]]
+
+
+
+===== DNN =====
+
+Accuracy : 0.9208860759493671
+Precision: 0.8791946308724832
+Recall   : 0.9492753623188406
+F1 Score : 0.9128919860627178
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.90      0.93       178
+           1       0.88      0.95      0.91       138
+
+    accuracy                           0.92       316
+   macro avg       0.92      0.92      0.92       316
+weighted avg       0.92      0.92      0.92       316
+
+Confusion Matrix:
+[[160  18]
+ [  7 131]]
