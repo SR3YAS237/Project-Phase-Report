@@ -1,0 +1,28 @@
+========== NSL_KDD BINARY RESULTS ==========\n\n===== RANDOM FOREST =====\n\nAccuracy: 0.7889390519187359\n\n              precision    recall  f1-score   support
+
+      Attack       0.80      0.98      0.88       711
+      Normal       0.12      0.01      0.02       175
+
+    accuracy                           0.79       886
+   macro avg       0.46      0.50      0.45       886
+weighted avg       0.67      0.79      0.71       886
+\nConfusion Matrix:\n[[697  14]
+ [173   2]]\n\n===== SVM =====\n\nAccuracy: 0.8024830699774267\n\n              precision    recall  f1-score   support
+
+      Attack       0.80      1.00      0.89       711
+      Normal       0.00      0.00      0.00       175
+
+    accuracy                           0.80       886
+   macro avg       0.40      0.50      0.45       886
+weighted avg       0.64      0.80      0.71       886
+\nConfusion Matrix:\n[[711   0]
+ [175   0]]\n\n===== DNN =====\n\nAccuracy: 0.7979683972911964\n\n              precision    recall  f1-score   support
+
+      Attack       0.80      0.99      0.89       711
+      Normal       0.00      0.00      0.00       175
+
+    accuracy                           0.80       886
+   macro avg       0.40      0.50      0.44       886
+weighted avg       0.64      0.80      0.71       886
+\nConfusion Matrix:\n[[707   4]
+ [175   0]]
