@@ -1,0 +1,46 @@
+========== WSN_DS MULTI RESULTS ==========\n\n===== RANDOM FOREST =====\n\nAccuracy: 0.9946\n\n              precision    recall  f1-score   support
+
+   Blackhole       0.96      0.99      0.97       288
+    Flooding       0.90      1.00      0.95        93
+    Grayhole       0.98      0.94      0.96       401
+      Normal       1.00      1.00      1.00      9039
+        TDMA       1.00      0.93      0.96       179
+
+    accuracy                           0.99     10000
+   macro avg       0.97      0.97      0.97     10000
+weighted avg       0.99      0.99      0.99     10000
+\nConfusion Matrix:\n[[ 285    0    3    0    0]
+ [   0   93    0    0    0]
+ [  11    0  377   13    0]
+ [   1   10    3 9025    0]
+ [   0    0    1   12  166]]\n\n===== SVM =====\n\nAccuracy: 0.9704\n\n              precision    recall  f1-score   support
+
+   Blackhole       0.70      0.88      0.78       288
+    Flooding       0.87      0.88      0.88        93
+    Grayhole       0.74      0.58      0.65       401
+      Normal       0.99      0.99      0.99      9039
+        TDMA       1.00      0.87      0.93       179
+
+    accuracy                           0.97     10000
+   macro avg       0.86      0.84      0.85     10000
+weighted avg       0.97      0.97      0.97     10000
+\nConfusion Matrix:\n[[ 253    0   35    0    0]
+ [   0   82    0   11    0]
+ [ 109    0  233   59    0]
+ [   0   12   46 8981    0]
+ [   0    0    1   23  155]]\n\n===== DNN =====\n\nAccuracy: 0.9858\n\n              precision    recall  f1-score   support
+
+   Blackhole       0.83      0.82      0.82       288
+    Flooding       0.88      1.00      0.93        93
+    Grayhole       0.85      0.86      0.86       401
+      Normal       1.00      1.00      1.00      9039
+        TDMA       0.99      0.92      0.95       179
+
+    accuracy                           0.99     10000
+   macro avg       0.91      0.92      0.91     10000
+weighted avg       0.99      0.99      0.99     10000
+\nConfusion Matrix:\n[[ 235    0   53    0    0]
+ [   0   93    0    0    0]
+ [  49    0  346    5    1]
+ [   0   13    6 9020    0]
+ [   0    0    0   15  164]]

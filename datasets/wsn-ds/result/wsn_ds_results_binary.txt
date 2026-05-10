@@ -1,0 +1,28 @@
+========== WSN_DS BINARY RESULTS ==========\n\n===== RANDOM FOREST =====\n\nAccuracy: 0.996\n\n              precision    recall  f1-score   support
+
+      Attack       0.98      0.98      0.98       961
+      Normal       1.00      1.00      1.00      9039
+
+    accuracy                           1.00     10000
+   macro avg       0.99      0.99      0.99     10000
+weighted avg       1.00      1.00      1.00     10000
+\nConfusion Matrix:\n[[ 939   22]
+ [  18 9021]]\n\n===== SVM =====\n\nAccuracy: 0.9875\n\n              precision    recall  f1-score   support
+
+      Attack       0.93      0.94      0.94       961
+      Normal       0.99      0.99      0.99      9039
+
+    accuracy                           0.99     10000
+   macro avg       0.96      0.97      0.96     10000
+weighted avg       0.99      0.99      0.99     10000
+\nConfusion Matrix:\n[[ 901   60]
+ [  65 8974]]\n\n===== DNN =====\n\nAccuracy: 0.9953\n\n              precision    recall  f1-score   support
+
+      Attack       0.97      0.98      0.98       961
+      Normal       1.00      1.00      1.00      9039
+
+    accuracy                           1.00     10000
+   macro avg       0.98      0.99      0.99     10000
+weighted avg       1.00      1.00      1.00     10000
+\nConfusion Matrix:\n[[ 943   18]
+ [  29 9010]]
