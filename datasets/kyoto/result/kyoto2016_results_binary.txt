@@ -1,0 +1,28 @@
+========== KYOTO2016 BINARY RESULTS ==========\n\n===== RANDOM FOREST =====\n\nAccuracy: 0.9973964917555572\n\n              precision    recall  f1-score   support
+
+      Attack       1.00      1.00      1.00    133830
+      Normal       0.99      0.98      0.98     12511
+
+    accuracy                           1.00    146341
+   macro avg       1.00      0.99      0.99    146341
+weighted avg       1.00      1.00      1.00    146341
+\nConfusion Matrix:\n[[133744     86]
+ [   295  12216]]\n\n===== SVM =====\n\nAccuracy: 0.9327119535878531\n\n              precision    recall  f1-score   support
+
+      Attack       0.93      1.00      0.96    133830
+      Normal       0.89      0.24      0.38     12511
+
+    accuracy                           0.93    146341
+   macro avg       0.91      0.62      0.67    146341
+weighted avg       0.93      0.93      0.91    146341
+\nConfusion Matrix:\n[[133437    393]
+ [  9454   3057]]\n\n===== DNN =====\n\nAccuracy: 0.9767597597392391\n\n              precision    recall  f1-score   support
+
+      Attack       0.98      0.99      0.99    133830
+      Normal       0.93      0.79      0.85     12511
+
+    accuracy                           0.98    146341
+   macro avg       0.95      0.89      0.92    146341
+weighted avg       0.98      0.98      0.98    146341
+\nConfusion Matrix:\n[[133050    780]
+ [  2621   9890]]
